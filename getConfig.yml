@@ -1,6 +1,6 @@
 ---
 - name: "Get Junos OS configuration"
-  hosts: junos-all
+  hosts: juniper
   connection: local
   gather_facts: no
 
