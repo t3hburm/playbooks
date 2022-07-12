@@ -7,7 +7,7 @@
   tasks:
     - name: "Get committed configuration"
       juniper.device.config:
-        savedir: "{{~/.ansible/collections/ansible_collections/juniper/device/}}"
+        savedir: "{{~/.ansible/collections/ansible_collections/}}"
         retrieve: "committed"
       register: response
     - name: "Print result"
